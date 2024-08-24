@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section><header>
-        <h2>Chishimba Chasanda</h2>
-        <ul>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Projects</li>
-            <li>Contact</li>
-        </ul>
-    </header></section>
-     <section><body>
-        <h1>About</h1>
-        <div>
+    <header>
+        
+        <h2 id="name">Chishimba Chasanda</h2>
+        <nav>
+        <ul class="navbar">
+            <a><li>About</li></a>
+            <a><li>Skills</li></a>
+            <a><li>Projects</li></a>
+            <a><li>Contact</li></a>
+        </ul></nav>
+    </header>
+      <Section class="">
+        <h1 class="about">About</h1>
+        <div class="main">
             <p> 
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                 Esse corrupti quibusdam nostrum dignissimos facilis magni earum numquam facere quis. 
@@ -35,8 +38,10 @@
                 Sequi tenetur reprehenderit, tempore consectetur incidunt eligendi odit nihil accusantium velit, asperiores at neque nobis expedita suscipit.
             </p>
         </div>
-        <h1>Skills</h1>
-        <div>
+        
+        <h1 class="main">Skills</h1>
+        <div class="sidebar content">
+        
             <table>
                 <td>
                     <tr>HTML 5</tr>
@@ -49,14 +54,14 @@
             </table>
         </div>
         <h1>Projects</h1>
-        <div>
+        <div class="sidebar content">
             <h3> This section will show case several of my projects</h3>
             <p> E-portfolio. 
                 Each project should have a picture, a summary of the project, 
                 and the technology used to build it.</p>
         </div>
         <h1>Contact</h1>
-        <div>
+        <div class="sidebar content">
             <h2>My contacts</h2>
             <ul>
                 <li>
@@ -74,8 +79,10 @@
                 </li>
             </ul>
         </div>
-     </body></section>
-     <section><footer></footer></section>
+    </Section>
+     <section><footer>
+        <p></p>
+     </footer></section>
     
 </body>
 </html>
