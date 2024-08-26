@@ -7,18 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    
         
-        <h2 id="name">Chishimba Chasanda</h2>
+        <header>
         <nav>
-        <ul class="navbar">
-            <a><li>About</li></a>
-            <a><li>Skills</li></a>
-            <a><li>Projects</li></a>
-            <a><li>Contact</li></a>
-        </ul></nav>
+            
+            <ul class="navbar">
+                <li class="navitem"> <a href="#" class="ankalink"> Contact </a> </li>
+                <li class="navitem"> <a href="#" class="ankalink"> Projects </a> </li>
+                <li class="navitem"> <a href="#" class="ankalink"> Skills </a> </li>
+                <li class="navitem"> <a href="#" class="ankalink"> About </a> </li>
+                <h2 class="name">Chishimba Chasanda</h2>
+                
+            </ul>
+        </nav>
     </header>
-      <Section class="">
+    
+      <Section class= "main">
         <h1 class="about">About</h1>
         <div class="main">
             <p> 
@@ -39,42 +44,64 @@
             </p>
         </div>
         
-        <h1 class="main">Skills</h1>
-        <div class="sidebar content">
+        <h1>Skills</h1>
+        <div class="main">
         
-            <table>
-                <td>
-                    <tr>HTML 5</tr>
-                    <tr>Css</tr>
-                    <tr>Javascript</tr>
-                    <tr>git</tr>
-                    <tr>github</tr>
-                </td>
+            <table class="table">
+                <tr class="skilldata">
+                    <td class="skillrow"><img src="../E-portfolio/images/HTML5.gif"></td>
+                    <td class="skillrow"> <img src="../E-portfolio/images/CSS3.gif"> </td>
+                    <td class="skillrow"> <img src="../E-portfolio/images/Git.gif"></td>
+                </tr>
+               <tr>
+                    <td class="skillrow"><img src="../E-portfolio/images/GitHub.gif"></td>
+                    <td class="skillrow"> <img src="../E-portfolio/images/JavaScript.gif"> </td>
+                    <td class="skillrow"> <img src="../E-portfolio/images/nodejs.gif"> </td>
+            
+                </tr>  
+                <tr>
+                    <td class="skillrow"> <img src="../E-portfolio/images/React.gif"> </td>
+                </tr>
+                
                 
             </table>
         </div>
         <h1>Projects</h1>
-        <div class="sidebar content">
-            <h3> This section will show case several of my projects</h3>
-            <p> E-portfolio. 
-                Each project should have a picture, a summary of the project, 
-                and the technology used to build it.</p>
+        <div class="main">
+            <table class="table">
+                <tr class="projectrow">
+                    <td class="projectcolum"> 
+                        <h3 class="project_title"> This section will show case several of my projects</h3>
+                        <p class="project_summary">
+                             E-portfolio. 
+                            Each project should have a picture, a summary of the project, 
+                            and the technology used to build it.
+                        </p>
+                    </td>
+                    
+                </tr>
+               
+                
+                
+            </table>
+           
+            
         </div>
         <h1>Contact</h1>
-        <div class="sidebar content">
+        <div class="main">
             <h2>My contacts</h2>
-            <ul>
-                <li>
-                    <a href="#">Linkedin</a>
+            <ul class="navbar">
+                <li class="">
+                    <a class="contact_link" href="#">Linkedin</a>
                 </li>
-                <li>
-                    <a href="#">Github</a>
+                <li class="">
+                    <a class="contact_link" href="#">Github</a>
                 </li>
                 
-                <li>
-                    <a href="#">Mail</a>
+                <li class="">
+                    <a class="contact_link" href="#">Mail</a>
                 </li>
-                <li>
+                <li class="">
                     <a href="#">Whatsapp</a>
                 </li>
             </ul>

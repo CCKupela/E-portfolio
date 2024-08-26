@@ -1,89 +1,76 @@
 
 *{
-   
     padding: 0%;
     margin: 0%;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    list-style: none;
-    text-decoration:none ;
-    scroll-behavior: smooth;   
+}
+.name{
+    margin: 16px 32px;
+    color: #cdf;
+    text-decoration: underline;
+}
+header{
+    background-color: #333;
+    padding: 16px 32px;
+    margin-top: 0;
+    position: fixed;
+    width: 100%;
     
 }
-        body{
-            font-family: Arial, sans-serif;
-            margin: 10%;
-            display: grid;
-            gap: 20px;
-        }
-        #name{
-            padding: 15px;
-        }
-        
-        header{
-            background-color: #e7a721;
-            position: fixed;
-            right: 0%;
-            top: 0%;
-            display: flexbox;
-            width: 100%;
-            border-bottom: 1px solid transparent;
-            transition: all .40s ease;
-        }
-        .navbar{
-            display: flex;
-            float: right;
-            position: relative;
-            padding: 40px, 20px;
-      
-        }
-     .navbar a{
-            color: #fcf9da;
-            background-color: #12141c;
-            font-size: medium;
-            font-weight: bold;
-            border:2.5px solid #3b2808;
-            padding: 10px 25px;
-            margin: 0 2px;
-            border-radius: 16px;
-            transition: all .50s ease;
-        }
-        .navbar a:hover{
-            background: #ca8918;
-            
-        }
-        .content {
-            padding: 20%;
-        }
-        .sidebar {
-            background-color: #f4f4f4;
-            padding: 20%;
-        }
-        .main {
-            background-color: #e2e2e2;
-            padding: 20px;
-        }
-        table {
-            height: 40%;
-            left: 10%;
-            margin: 20px auto;
-            overflow-y: scroll;
-            position: static;
-            width: 80%;
-          }
-          tr {
-            background: #a2c8d5;
-            border-bottom: 1px solid #fcd;
-            margin-bottom: 5px;
-          }
-          td{
-            font-size: 18px;
-          }
-        footer {
-            grid-column: 1 / -1;
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-            position: fixed;
-        }
+
+/* Remove default list styling */
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 46px;
+    background-color: #333;
+}
+/* Style the list items */
+.navitem{
+    float: right;
+}
+/* Style the links inside the list items */
+.navitem .ankalink{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: #fff;
+    text-decoration: none;
+}
+/* Section*/
+.main{
+    padding: 10%;
+    margin: 0%;
+    
+}
+ .table{
+    border: #333 solid;
+    align-content: center;
+    align-items: center;
+    margin-left: 10%;
+ }
+ .skillrow{ 
+    border: #daf solid;
+    padding: 100px;
+    
+}
+img{
+    height: 50px;
+    width: 50px;
+
+}
+img:hover{
+    cursor: pointer;
+   
+}
+.projectcolum{
+    padding: 100px;
+    border: #333 solid;
+}
+.project_title{
+    padding: 0;
+    margin: auto;
+}
+
+
+
