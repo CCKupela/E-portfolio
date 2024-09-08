@@ -5,120 +5,189 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="javascript.js">
 </head>
-<body>
-    
-        
-        <header>
-        <nav>
-            
-            <ul class="navbar">
-                <li class="navitem"> <a href="#" class="ankalink"> Contact </a> </li>
-                <li class="navitem"> <a href="#" class="ankalink"> Projects </a> </li>
-                <li class="navitem"> <a href="#" class="ankalink"> Skills </a> </li>
-                <li class="navitem"> <a href="#" class="ankalink"> About </a> </li>
-                <h2 class="name">Chishimba Chasanda</h2>
-                
-            </ul>
-        </nav>
-    </header>
-    
-      <Section class= "main">
-        <h1 class="about">About</h1>
+<body>        
+                <header>            
+                    <nav>                        
+                        <ul class="navbar">
+                            <li class="navitem"> <a href="#Contact" class="ankalink"> Contact </a> </li>
+                            <li class="navitem"> <a href="#Projects" class="ankalink"> Projects </a> </li>
+                            <li class="navitem"> <a href="#Skills" class="ankalink"> Skills </a> </li>
+                            <li class="navitem"> <a href="#About"  class="ankalink"> About </a> </li>                        
+                            <!--<button class="navitem" class="dark-mode" id="theme-toggle" onclick="toggleMode()">Toggle Mode</button>--> 
+                            <button id="theme-toggle" class="dark-mode"onclick="toggleDarkMode()">Toggle Dark Mode</button>                      
+                            <h2 class="name">Chishimba Chasanda</h2>                            
+                        </ul>
+                    </nav>
+                </header>    
+      <Section class= "main" id="About">
         <div class="main">
-        <div  class="box"> <img src="images/CSS3.gif"></div>
-            <p> 
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Esse corrupti quibusdam nostrum dignissimos facilis magni earum numquam facere quis. 
-                Tempore ab aliquid dolore, nam totam nesciunt at saepe illo sapiente?
+            <h1 class="About">About</h1>
+            
+            <div class="row">
+                <div class="column">
+                    <img class="profileimg" src="images/" alt=" Sowing an image about Chishimba Chasanda">
+                </div>
+                <div class="column2"> 
+                    <p> 
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Esse corrupti quibusdam nostrum dignissimos facilis magni earum numquam facere quis. 
+                        Tempore ab aliquid dolore, nam totam nesciunt at saepe illo sapiente?
+        
+                    </p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Repellat consequuntur eveniet voluptatibus vel impedit velit accusamus.
+                         Accusamus, quam optio, odio sed accusantium fuga molestiae itaque nisi voluptatibus porro omnis culpa?
+                    </p>
+                    <br>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Eligendi cupiditate minus in ea? 
+                        Sequi tenetur reprehenderit, tempore consectetur incidunt eligendi odit nihil accusantium velit, asperiores at neque nobis expedita suscipit.
+                    </p>
+                </div>
+              </div>   
+              <button class="button">Download Cv </button>            
+        </div>
+      </Section>
+      <section class= "main" id="Skills">
+        <div class="main"> 
+            <h1 class="Skills">Skills</h1>
+            <div class="row">       
+                <table class="table">
+                    <tr class="skilldata">
+                        <td class="skillrow"><img src="../E-portfolio/images/HTML5.gif"></td>
+                        <td class="skillrow"> <img src="../E-portfolio/images/CSS3.gif"> </td>
+                        <td class="skillrow"> <img src="../E-portfolio/images/Git.gif"></td>
+                    </tr>
+                    <tr>
+                        <td class="skillrow"><img src="../E-portfolio/images/GitHub.gif"></td>
+                        <td class="skillrow"> <img src="../E-portfolio/images/JavaScript.gif"> </td>
+                        <td class="skillrow"> <img src="../E-portfolio/images/nodejs.gif"> </td>            
+                    </tr>  
+                    <tr>
+                        <td class="skillrow"> <img src="../E-portfolio/images/React.gif"> </td>
+                    </tr>              
+                </table>
+            </div>
+        </div>
+    </section>
 
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                 Repellat consequuntur eveniet voluptatibus vel impedit velit accusamus.
-                 Accusamus, quam optio, odio sed accusantium fuga molestiae itaque nisi voluptatibus porro omnis culpa?
-            </p>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Eligendi cupiditate minus in ea? 
-                Sequi tenetur reprehenderit, tempore consectetur incidunt eligendi odit nihil accusantium velit, asperiores at neque nobis expedita suscipit.
-            </p>
-        </div>
-        
-        <h1>Skills</h1>
+    <section class= "main" id="Projects">        
         <div class="main">
-        
-            <table class="table">
-                <tr class="skilldata">
-                    <td class="skillrow"><img src="../E-portfolio/images/HTML5.gif"></td>
-                    <td class="skillrow"> <img src="../E-portfolio/images/CSS3.gif"> </td>
-                    <td class="skillrow"> <img src="../E-portfolio/images/Git.gif"></td>
-                </tr>
-               <tr>
-                    <td class="skillrow"><img src="../E-portfolio/images/GitHub.gif"></td>
-                    <td class="skillrow"> <img src="../E-portfolio/images/JavaScript.gif"> </td>
-                    <td class="skillrow"> <img src="../E-portfolio/images/nodejs.gif"> </td>
-            
-                </tr>  
-                <tr>
-                    <td class="skillrow"> <img src="../E-portfolio/images/React.gif"> </td>
-                </tr>
-                
-                
-            </table>
+            <h1 class="Projects">Projects</h1>
+                <div class="row">       
+                    <table class="table">
+                        <tr class="skilldata">
+                            <td class="skillrow">
+                                <h3> This section will show case several of my projects</h3>
+                                <img src="../E-portfolio/images/HTML5.gif">
+                                <p class="project_summary">
+                                    E-portfolio. 
+                                   Each project should have a picture, a summary of the project, 
+                                   and the technology used to build it.
+                               </p>
+                            </td>
+                            <td class="skillrow"> 
+                                <h3> This section will show case several of my projects</h3>
+                                <img src="../E-portfolio/images/HTML5.gif">
+                                <p class="project_summary">
+                                    E-portfolio. 
+                                   Each project should have a picture, a summary of the project, 
+                                   and the technology used to build it.
+                               </p>
+                            </td>
+                            <td class="skillrow"> 
+                                <h3> This section will show case several of my projects</h3>
+                                <img src="../E-portfolio/images/HTML5.gif">
+                                <p class="project_summary">
+                                    E-portfolio. 
+                                   Each project should have a picture, a summary of the project, 
+                                   and the technology used to build it.
+                               </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="skillrow">
+                                <h3> This section will show case several of my projects</h3>
+                                <img src="../E-portfolio/images/HTML5.gif">
+                                <p class="project_summary">
+                                    E-portfolio. 
+                                   Each project should have a picture, a summary of the project, 
+                                   and the technology used to build it.
+                               </p>
+                            </td>
+                            <td class="skillrow">
+                                <h3> This section will show case several of my projects</h3>
+                                <img src="../E-portfolio/images/HTML5.gif">
+                                <p class="project_summary">
+                                    E-portfolio. 
+                                   Each project should have a picture, a summary of the project, 
+                                   and the technology used to build it.
+                               </p>
+                            </td>
+                            <td class="skillrow"> 
+                                <h3> This section will show case several of my projects</h3>
+                                <img src="../E-portfolio/images/HTML5.gif">
+                                <p class="project_summary">
+                                    E-portfolio. 
+                                   Each project should have a picture, a summary of the project, 
+                                   and the technology used to build it.
+                               </p>
+                             </td>            
+                        </tr>  
+                        <tr>
+                            <td class="skillrow">
+                                <h3> This section will show case several of my projects</h3>
+                                <img src="../E-portfolio/images/HTML5.gif">
+                                <p class="project_summary">
+                                    E-portfolio. 
+                                   Each project should have a picture, a summary of the project, 
+                                   and the technology used to build it.
+                               </p> 
+                            </td>
+                        </tr>              
+                    </table>
+                </div> 
         </div>
-        <h1 class="projectheading">Projects</h1>
+    </section>
+    <section class= "main" id="Contact">
         <div class="main">
-            <!--<table class="table">
-                <tr class="projectrow">
-                    <td class="projectcolum"> 
-                        <h3 class="project_title"> This section will show case several of my projects</h3>
-                        <p class="project_summary">
-                             E-portfolio. 
-                            Each project should have a picture, a summary of the project, 
-                            and the technology used to build it.
-                        </p>
-                    </td>
+            <h1 class="Contact" >Contact</h1>
+            <div class="row">
+                <div class="column">
+                    <img src="images/" alt=" Sowing an image about Chishimba Chasanda">
+                </div>
+                <div class="column2"> 
                     
-                </tr>
-               
-                
-                
-            </table>--><div class="container">
-  <div>One</div>
-  <div>Two</div>
-  <div>Three</div>
-  <div>Four</div>
-  <div>Five</div>
-  <div>Six</div>
-  <div>Seven</div>
-</div>
-           
-            
+                        <li class="Linkedin">
+                            <a class="contact_link" href="#">Linkedin</a>
+                        </li>
+                        <li class="">
+                            <a class="contact_link" href="#">Github</a>
+                        </li>
+                        
+                        <li class="">
+                            <a class="contact_link" href="#">Mail</a>
+                        </li>
+                        <li class="">
+                            <a href="#">Whatsapp</a>
+                        </li>
+                    
+                </div>
+            </div>               
         </div>
-        <h1 class="contentheading">Contact</h1>
-        <div class="main">
-            <h2>My contacts</h2>
-            <ul class="navbar">
-                <li class="">
-                    <a class="contact_link" href="#">Linkedin</a>
-                </li>
-                <li class="">
-                    <a class="contact_link" href="#">Github</a>
-                </li>
-                
-                <li class="">
-                    <a class="contact_link" href="#">Mail</a>
-                </li>
-                <li class="">
-                    <a href="#">Whatsapp</a>
-                </li>
-            </ul>
-        </div>
+       
     </Section>
-     <section><footer>
-        <p></p>
-     </footer></section>
+
+     <section class= "main">
+        <footer>
+        <p> Copyright &copy; 2024 </p>
+        </footer>
+    </section>
     
 </body>
 </html>
