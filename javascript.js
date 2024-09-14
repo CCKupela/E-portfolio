@@ -12,4 +12,3 @@ const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matche
 if (prefersDarkMode) {
   toggleDarkMode();
 };
-
